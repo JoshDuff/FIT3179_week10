@@ -51,7 +51,7 @@
         },    
         "tooltip": [
           {"field": "IGN_CAUSE1", "type": "nominal", "title": "Cause "},
-          {"field": "SHAPE_AREA", "type": "quantitative", "title": "Area Burned (km^2) ", "aggregate": "sum", "format": ".2f"}
+          {"field": "SHAPE_AREA", "type": "quantitative", "title": "Area Burned (m^2) ", "aggregate": "sum", "format": ".2f"}
         ]
       }
     }
