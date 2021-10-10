@@ -50,9 +50,8 @@
           }
         },    
         "tooltip": [
-          {"field": "start_year", "type": "quantitative", "title": "Year Ignited", "aggregate": "max"},
           {"field": "IGN_CAUSE1", "type": "nominal", "title": "Cause "},
-          {"field": "area_km", "type": "quantitative", "title": "Area Burned (km^2) ", "aggregate": "sum", "format": ".2f"}
+          {"field": "SHAPE_AREA", "type": "quantitative", "title": "Area Burned (km^2) ", "aggregate": "sum", "format": ".2f"}
         ]
       }
     }
