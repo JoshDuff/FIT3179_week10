@@ -12,12 +12,19 @@
 </head>
 <body>
   
-<div id="detailed_map"></div>
+<div id="bar_chart"></div>
+
+<div id="line_chart"></div>
 
 <script type="text/javascript">
 
-  var map1 = "js/detailed_map.vg.json";
-  vegaEmbed('#detailed_map', map1).then(function(result) {
+  var chart1 = "js/fire_type_barchart.json";
+  vegaEmbed('#bar_chart', chart1).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+
+  var chart2 = "js/chart1b.vg.json";
+  vegaEmbed('#line_chart', chart2).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 </script>
